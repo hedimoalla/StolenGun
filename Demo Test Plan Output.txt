@@ -1,0 +1,651 @@
+  /\______
+  \  ==== --------/|
+   | ==== |________|========================================O
+  /    ___|-------|     |                                |
+  |   /\ |              |         WELCOME TO THE         |
+  |   |_/               |          STOLEN GUNS           |
+  |   |         ________|            DATABASE            |________
+  |   |        |        |                                |        |
+  |___|        |        |________________________________|        |
+               |        \###|                       |###/         |
+               |         \##|                       |##/          |
+               |          \#|                       |#/           |
+               |___________\|                       |/____________|
+
+                     *****************************************
+                     *                                       *
+                     *         A - Add Data                  *
+                     *                                       *
+                     *         D - Delete Data               *
+                     *                                       *
+                     *         F - Search                    *
+                     *                                       *
+                     *         L - List data                 *
+                     *                                       *
+                     *         W - Write data to file        *
+                     *                                       *
+                     *         S - Statistics                *
+                     *                                       *
+                     *         Q - Quit                      *
+                     *                                       *
+                     *****************************************
+
+
+Choose Option: a
+
+ADD DATA
+Enter Serial number: ZZ998877
+Enter make: Glock
+Enter model: G42
+Enter caliber: .38
+Enter phone number: 4084084084
+
+DATA ADDED...
+
+Choose Option: F
+
+S: Search by Serial
+P: Search by Phone Number:
+
+Your choice: S
+Enter serial number: ZZ998877
+Serial Number: ZZ998877 Make: Glock Model: G42 Caliber: .38 Phone Number: 4084084084
+
+Choose Option: F
+
+S: Search by Serial
+P: Search by Phone Number:
+
+Your choice: p
+Enter 10-digit phone number: 4084084084
+Serial Number: ZZ998877 Make: Glock Model: G42 Caliber: .38 Phone Number: 4084084084
+
+Choose Option: s
+
+Statistics:
+
+Occupied Buckets:        20
+Collisions:              14
+Empty Buckets:           11
+Full Buckets:             4
+Rejected Items:           0
+Load Factor:           64.5%
+Average Items:          1.7
+
+Bucket  0:      |X| |X| |X|
+Bucket  1:      |X| |X|
+Bucket  2:      |X|
+Bucket  3:      |X| |X| |X|
+Bucket  4:
+Bucket  5:
+Bucket  6:      |X| |X|
+Bucket  7:      |X|
+Bucket  8:
+Bucket  9:
+Bucket 10:      |X|
+Bucket 11:      |X|
+Bucket 12:
+Bucket 13:
+Bucket 14:
+Bucket 15:
+Bucket 16:      |X|
+Bucket 17:      |X| |X|
+Bucket 18:      |X|
+Bucket 19:      |X|
+Bucket 20:
+Bucket 21:
+Bucket 22:      |X| |X|
+Bucket 23:      |X| |X| |X|
+Bucket 24:      |X| |X| |X|
+Bucket 25:      |X| |X|
+Bucket 26:      |X|
+Bucket 27:      |X| |X|
+Bucket 28:      |X|
+Bucket 29:
+Bucket 30:      |X|
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: i
+Index 0: Serial Number: 223032 Phone Number: 4082493948
+
+                Serial Number: 148878 Phone Number: 5613967037
+
+                Serial Number: SES233 Phone Number: 9517046709
+
+Index 1: Serial Number: G1806513 Phone Number: 9252294007
+
+                Serial Number: SAL223 Phone Number: 4155156005
+
+Index 2: Serial Number: 209464 Phone Number: 9403659167
+
+Index 3: Serial Number: 1259S Phone Number: 9254433010
+
+                Serial Number: G7157922 Phone Number: 5613967037
+
+                Serial Number: DWF0756 Phone Number: 5103659963
+
+Index 4: //Empty bucket
+
+Index 5: //Empty bucket
+
+Index 6: Serial Number: 210G3835 Phone Number: 9252294007
+
+                Serial Number: RKY213 Phone Number: 5613967037
+
+Index 7: Serial Number: DWF0765 Phone Number: 5103659963
+
+Index 8: //Empty bucket
+
+Index 9: //Empty bucket
+
+Index 10: Serial Number: DWFO750 Phone Number: 5103659963
+
+Index 11: Serial Number: N218147 Phone Number: 9252380421
+
+Index 12: //Empty bucket
+
+Index 13: //Empty bucket
+
+Index 14: //Empty bucket
+
+Index 15: //Empty bucket
+
+Index 16: Serial Number: ZZ998877 Phone Number: 4084084084
+
+Index 17: Serial Number: 1181384 Phone Number: 9255845643
+
+                Serial Number: 71100 Phone Number: 4082493948
+
+Index 18: Serial Number: 119124 Phone Number: 9254433010
+
+Index 19: Serial Number: U553273 Phone Number: 8315242611
+
+Index 20: //Empty bucket
+
+Index 21: //Empty bucket
+
+Index 22: Serial Number: U742955 Phone Number: 4082692063
+
+                Serial Number: 29035526 Phone Number: 9499108166
+
+Index 23: Serial Number: 207162 Phone Number: 4082493948
+
+                Serial Number: 93401134 Phone Number: 6503851972
+
+                Serial Number: UF2104 Phone Number: 5108420524
+
+Index 24: Serial Number: ABO3730 Phone Number: 9255845643
+
+                Serial Number: 783182 Phone Number: 9255845643
+
+                Serial Number: K31996 Phone Number: 4088973157
+
+Index 25: Serial Number: B49582 Phone Number: 4082493948
+
+                Serial Number: 237087 Phone Number: 4082493948
+
+Index 26: Serial Number: 4569 Phone Number: 4082493948
+
+Index 27: Serial Number: B6940172 Phone Number: 9255845643
+
+                Serial Number: T664304 Phone Number: 5109844643
+
+Index 28: Serial Number: VMX560 Phone Number: 4153120295
+
+Index 29: //Empty bucket
+
+Index 30: Serial Number: 143471 Phone Number: 5613967037
+
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: f
+Serial Number: 1181384 Phone Number: 9255845643
+Serial Number: 119124 Phone Number: 9254433010
+Serial Number: 1259S Phone Number: 9254433010
+Serial Number: 143471 Phone Number: 5613967037
+Serial Number: 148878 Phone Number: 5613967037
+Serial Number: 207162 Phone Number: 4082493948
+Serial Number: 209464 Phone Number: 9403659167
+Serial Number: 210G3835 Phone Number: 9252294007
+Serial Number: 223032 Phone Number: 4082493948
+Serial Number: 237087 Phone Number: 4082493948
+Serial Number: 29035526 Phone Number: 9499108166
+Serial Number: 4569 Phone Number: 4082493948
+Serial Number: 71100 Phone Number: 4082493948
+Serial Number: 783182 Phone Number: 9255845643
+Serial Number: 93401134 Phone Number: 6503851972
+Serial Number: ABO3730 Phone Number: 9255845643
+Serial Number: B49582 Phone Number: 4082493948
+Serial Number: B6940172 Phone Number: 9255845643
+Serial Number: DWF0756 Phone Number: 5103659963
+Serial Number: DWF0765 Phone Number: 5103659963
+Serial Number: DWFO750 Phone Number: 5103659963
+Serial Number: G1806513 Phone Number: 9252294007
+Serial Number: G7157922 Phone Number: 5613967037
+Serial Number: K31996 Phone Number: 4088973157
+Serial Number: N218147 Phone Number: 9252380421
+Serial Number: RKY213 Phone Number: 5613967037
+Serial Number: SAL223 Phone Number: 4155156005
+Serial Number: SES233 Phone Number: 9517046709
+Serial Number: T664304 Phone Number: 5109844643
+Serial Number: U553273 Phone Number: 8315242611
+Serial Number: U742955 Phone Number: 4082692063
+Serial Number: UF2104 Phone Number: 5108420524
+Serial Number: VMX560 Phone Number: 4153120295
+Serial Number: ZZ998877 Phone Number: 4084084084
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: j
+Serial Number: 207162 Phone Number: 4082493948
+Serial Number: B49582 Phone Number: 4082493948
+Serial Number: 223032 Phone Number: 4082493948
+Serial Number: 71100 Phone Number: 4082493948
+Serial Number: 4569 Phone Number: 4082493948
+Serial Number: 237087 Phone Number: 4082493948
+Serial Number: U742955 Phone Number: 4082692063
+Serial Number: ZZ998877 Phone Number: 4084084084
+Serial Number: K31996 Phone Number: 4088973157
+Serial Number: VMX560 Phone Number: 4153120295
+Serial Number: SAL223 Phone Number: 4155156005
+Serial Number: DWFO750 Phone Number: 5103659963
+Serial Number: DWF0765 Phone Number: 5103659963
+Serial Number: DWF0756 Phone Number: 5103659963
+Serial Number: UF2104 Phone Number: 5108420524
+Serial Number: T664304 Phone Number: 5109844643
+Serial Number: RKY213 Phone Number: 5613967037
+Serial Number: G7157922 Phone Number: 5613967037
+Serial Number: 148878 Phone Number: 5613967037
+Serial Number: 143471 Phone Number: 5613967037
+Serial Number: 93401134 Phone Number: 6503851972
+Serial Number: U553273 Phone Number: 8315242611
+Serial Number: 210G3835 Phone Number: 9252294007
+Serial Number: G1806513 Phone Number: 9252294007
+Serial Number: N218147 Phone Number: 9252380421
+Serial Number: 119124 Phone Number: 9254433010
+Serial Number: 1259S Phone Number: 9254433010
+Serial Number: B6940172 Phone Number: 9255845643
+Serial Number: ABO3730 Phone Number: 9255845643
+Serial Number: 783182 Phone Number: 9255845643
+Serial Number: 1181384 Phone Number: 9255845643
+Serial Number: 209464 Phone Number: 9403659167
+Serial Number: 29035526 Phone Number: 9499108166
+Serial Number: SES233 Phone Number: 9517046709
+
+Choose Option: w
+
+Enter file name to write data to: dataCollected.txt
+
+Data written to file...
+
+Choose Option: d
+
+DELETE DATA
+
+Enter Serial of gun to delete: ZZ99887766
+Gun not found... Please enter Serial again: ZZ998877
+Enter phone number: 408
+Invalid phone number... Enter 10-digit phone number please: 4084084084
+
+DATA DELETED...
+
+Choose Option: f
+
+S: Search by Serial
+P: Search by Phone Number:
+
+Your choice: s
+Enter serial number: 143471
+Serial Number: 143471 Make: palmettostatearmorypsa Model: ar-15 Caliber: .223/5.56 NATO Phone Number: 5613967037
+
+Choose Option: f
+
+S: Search by Serial
+P: Search by Phone Number:
+
+Your choice: p
+Enter 10-digit phone number: 4082493948
+Serial Number: 207162 Make: usspringfield Model: 1898rifle Caliber: 30-40 KRAG Phone Number: 4082493948
+Serial Number: B49582 Make: bretta Model: overandunder Caliber: 12 GAUGE Phone Number: 4082493948
+Serial Number: 223032 Make: winchester Model: 62-arifle Caliber: 22 SHORT/LONG/LONG RIFLE Phone Number: 4082493948
+Serial Number: 71100 Make: winchester Model: model12pump Caliber: 12 GAUGE Phone Number: 4082493948
+Serial Number: 4569 Make: westernarms Model: blackpowderrifle Caliber: 36 Phone Number: 4082493948
+Serial Number: 237087 Make: colt Model: model1908pistol Caliber: 25 Phone Number: 4082493948
+
+Choose Option: f
+
+S: Search by Serial
+P: Search by Phone Number:
+
+Your choice: p
+Enter 10-digit phone number: 5613967037
+Serial Number: RKY213 Make: glock Model: g23gen4 Caliber: .40 CAL Phone Number: 5613967037
+Serial Number: G7157922 Make: remington Model: 700vtr Caliber: .308 Phone Number: 5613967037
+Serial Number: 148878 Make: palmettostatearmorypsa Model: ar-15 Caliber: .223/5.56 NATO Phone Number: 5613967037
+Serial Number: 143471 Make: palmettostatearmorypsa Model: ar-15 Caliber: .223/5.56 NATO Phone Number: 5613967037
+
+Choose Option: s
+
+Statistics:
+
+Occupied Buckets:        19
+Collisions:              14
+Empty Buckets:           12
+Full Buckets:             4
+Rejected Items:           0
+Load Factor:           61.3%
+Average Items:         1.74
+
+Bucket  0:      |X| |X| |X|
+Bucket  1:      |X| |X|
+Bucket  2:      |X|
+Bucket  3:      |X| |X| |X|
+Bucket  4:
+Bucket  5:
+Bucket  6:      |X| |X|
+Bucket  7:      |X|
+Bucket  8:
+Bucket  9:
+Bucket 10:      |X|
+Bucket 11:      |X|
+Bucket 12:
+Bucket 13:
+Bucket 14:
+Bucket 15:
+Bucket 16:
+Bucket 17:      |X| |X|
+Bucket 18:      |X|
+Bucket 19:      |X|
+Bucket 20:
+Bucket 21:
+Bucket 22:      |X| |X|
+Bucket 23:      |X| |X| |X|
+Bucket 24:      |X| |X| |X|
+Bucket 25:      |X| |X|
+Bucket 26:      |X|
+Bucket 27:      |X| |X|
+Bucket 28:      |X|
+Bucket 29:
+Bucket 30:      |X|
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: i
+Index 0: Serial Number: 223032 Phone Number: 4082493948
+
+                Serial Number: 148878 Phone Number: 5613967037
+
+                Serial Number: SES233 Phone Number: 9517046709
+
+Index 1: Serial Number: G1806513 Phone Number: 9252294007
+
+                Serial Number: SAL223 Phone Number: 4155156005
+
+Index 2: Serial Number: 209464 Phone Number: 9403659167
+
+Index 3: Serial Number: 1259S Phone Number: 9254433010
+
+                Serial Number: G7157922 Phone Number: 5613967037
+
+                Serial Number: DWF0756 Phone Number: 5103659963
+
+Index 4: //Empty bucket
+
+Index 5: //Empty bucket
+
+Index 6: Serial Number: 210G3835 Phone Number: 9252294007
+
+                Serial Number: RKY213 Phone Number: 5613967037
+
+Index 7: Serial Number: DWF0765 Phone Number: 5103659963
+
+Index 8: //Empty bucket
+
+Index 9: //Empty bucket
+
+Index 10: Serial Number: DWFO750 Phone Number: 5103659963
+
+Index 11: Serial Number: N218147 Phone Number: 9252380421
+
+Index 12: //Empty bucket
+
+Index 13: //Empty bucket
+
+Index 14: //Empty bucket
+
+Index 15: //Empty bucket
+
+Index 16: //Empty bucket
+
+Index 17: Serial Number: 1181384 Phone Number: 9255845643
+
+                Serial Number: 71100 Phone Number: 4082493948
+
+Index 18: Serial Number: 119124 Phone Number: 9254433010
+
+Index 19: Serial Number: U553273 Phone Number: 8315242611
+
+Index 20: //Empty bucket
+
+Index 21: //Empty bucket
+
+Index 22: Serial Number: U742955 Phone Number: 4082692063
+
+                Serial Number: 29035526 Phone Number: 9499108166
+
+Index 23: Serial Number: 207162 Phone Number: 4082493948
+
+                Serial Number: 93401134 Phone Number: 6503851972
+
+                Serial Number: UF2104 Phone Number: 5108420524
+
+Index 24: Serial Number: ABO3730 Phone Number: 9255845643
+
+                Serial Number: 783182 Phone Number: 9255845643
+
+                Serial Number: K31996 Phone Number: 4088973157
+
+Index 25: Serial Number: B49582 Phone Number: 4082493948
+
+                Serial Number: 237087 Phone Number: 4082493948
+
+Index 26: Serial Number: 4569 Phone Number: 4082493948
+
+Index 27: Serial Number: B6940172 Phone Number: 9255845643
+
+                Serial Number: T664304 Phone Number: 5109844643
+
+Index 28: Serial Number: VMX560 Phone Number: 4153120295
+
+Index 29: //Empty bucket
+
+Index 30: Serial Number: 143471 Phone Number: 5613967037
+
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: f
+Serial Number: 1181384 Phone Number: 9255845643
+Serial Number: 119124 Phone Number: 9254433010
+Serial Number: 1259S Phone Number: 9254433010
+Serial Number: 143471 Phone Number: 5613967037
+Serial Number: 148878 Phone Number: 5613967037
+Serial Number: 207162 Phone Number: 4082493948
+Serial Number: 209464 Phone Number: 9403659167
+Serial Number: 210G3835 Phone Number: 9252294007
+Serial Number: 223032 Phone Number: 4082493948
+Serial Number: 237087 Phone Number: 4082493948
+Serial Number: 29035526 Phone Number: 9499108166
+Serial Number: 4569 Phone Number: 4082493948
+Serial Number: 71100 Phone Number: 4082493948
+Serial Number: 783182 Phone Number: 9255845643
+Serial Number: 93401134 Phone Number: 6503851972
+Serial Number: ABO3730 Phone Number: 9255845643
+Serial Number: B49582 Phone Number: 4082493948
+Serial Number: B6940172 Phone Number: 9255845643
+Serial Number: DWF0756 Phone Number: 5103659963
+Serial Number: DWF0765 Phone Number: 5103659963
+Serial Number: DWFO750 Phone Number: 5103659963
+Serial Number: G1806513 Phone Number: 9252294007
+Serial Number: G7157922 Phone Number: 5613967037
+Serial Number: K31996 Phone Number: 4088973157
+Serial Number: N218147 Phone Number: 9252380421
+Serial Number: RKY213 Phone Number: 5613967037
+Serial Number: SAL223 Phone Number: 4155156005
+Serial Number: SES233 Phone Number: 9517046709
+Serial Number: T664304 Phone Number: 5109844643
+Serial Number: U553273 Phone Number: 8315242611
+Serial Number: U742955 Phone Number: 4082692063
+Serial Number: UF2104 Phone Number: 5108420524
+Serial Number: VMX560 Phone Number: 4153120295
+
+Choose Option: l
+
+List Menu:
+
+U: List unsorted data
+S: Tree by Serial Number
+P: Tree by Phone Number
+I: Indented List
+F: Sort by Serial number
+J: Sort by Phone number
+G: Preorder traversal by Serial number
+H: Postorder traversal by Serial number
+K: Preorder traversal by Phone number
+L: Postorder traversal by Phone number
+Q: Quit menu
+Your choice: j
+Serial Number: 207162 Phone Number: 4082493948
+Serial Number: B49582 Phone Number: 4082493948
+Serial Number: 223032 Phone Number: 4082493948
+Serial Number: 71100 Phone Number: 4082493948
+Serial Number: 4569 Phone Number: 4082493948
+Serial Number: 237087 Phone Number: 4082493948
+Serial Number: U742955 Phone Number: 4082692063
+Serial Number: K31996 Phone Number: 4088973157
+Serial Number: VMX560 Phone Number: 4153120295
+Serial Number: SAL223 Phone Number: 4155156005
+Serial Number: DWFO750 Phone Number: 5103659963
+Serial Number: DWF0765 Phone Number: 5103659963
+Serial Number: DWF0756 Phone Number: 5103659963
+Serial Number: UF2104 Phone Number: 5108420524
+Serial Number: T664304 Phone Number: 5109844643
+Serial Number: RKY213 Phone Number: 5613967037
+Serial Number: G7157922 Phone Number: 5613967037
+Serial Number: 148878 Phone Number: 5613967037
+Serial Number: 143471 Phone Number: 5613967037
+Serial Number: 93401134 Phone Number: 6503851972
+Serial Number: U553273 Phone Number: 8315242611
+Serial Number: 210G3835 Phone Number: 9252294007
+Serial Number: G1806513 Phone Number: 9252294007
+Serial Number: N218147 Phone Number: 9252380421
+Serial Number: 119124 Phone Number: 9254433010
+Serial Number: 1259S Phone Number: 9254433010
+Serial Number: B6940172 Phone Number: 9255845643
+Serial Number: ABO3730 Phone Number: 9255845643
+Serial Number: 783182 Phone Number: 9255845643
+Serial Number: 1181384 Phone Number: 9255845643
+Serial Number: 209464 Phone Number: 9403659167
+Serial Number: 29035526 Phone Number: 9499108166
+Serial Number: SES233 Phone Number: 9517046709
+
+Choose Option: m
+
+
+                     *****************************************
+                     *                                       *
+                     *         A - Add Data                  *
+                     *                                       *
+                     *         D - Delete Data               *
+                     *                                       *
+                     *         F - Search                    *
+                     *                                       *
+                     *         L - List data                 *
+                     *                                       *
+                     *         W - Write data to file        *
+                     *                                       *
+                     *         S - Statistics                *
+                     *                                       *
+                     *         Q - Quit                      *
+                     *                                       *
+                     *****************************************
+
+
+Choose Option: w
+
+Enter file name to write data to: testing.txt
+
+Data written to file...
+
+Choose Option: q
+
+End of Program
+
+Press any key to continue . . .
